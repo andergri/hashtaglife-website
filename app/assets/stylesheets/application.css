@@ -236,3 +236,169 @@
           margin: 0px;
         }
       }
+
+body {
+    background-color: #f34846;
+  }
+
+  .container {
+    opacity: 0;
+  }
+
+  .fox-icon-background {
+    width: 210px;
+    height: 210px;
+    border-radius: 50px;
+    background-color: #FEC13E;
+    margin: auto auto;
+    overflow: hidden;
+  }
+
+  .fox {
+    text-align: center;
+    width: 210px;
+    height: 174px;
+    margin: auto auto;
+    position: relative;
+    background-size: 210px 174px;
+    top: 210px;
+  }
+
+  .fox-in-hole {
+    transition-delay: 500ms;
+    transition-duration: 700ms;
+    transition-timing-function: cubic-bezier(0.520, 0.295, 0.195, 1.000);
+    transform: translate3d(0px,-174px,0px);
+    -webkit-transition-delay: 500ms;
+    -webkit-transition-duration: 700ms;
+    -webkit-transition-timing-function: cubic-bezier(0.520, 0.295, 0.195, 1.000);
+    -webkit-transform: translate3d(0px,-174px,0px);
+  }
+
+  .fox .eye {
+    background-color: #000;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 56px;
+    left: 78px;
+    border-radius: 16px;
+    display: none;
+  }
+
+  .blink {
+    height: 3px !important;
+    border-radius: 2px !important;
+    top: 62px !important;
+  }
+
+  .secret-text {
+    text-align: center;
+    font-family: 'effra-med';
+    font-size: 60px;
+    line-height: 60px;
+    margin: 35px 0px;
+    color: white;
+  }
+
+  .secret-subtext {
+    text-align: center;
+    font-family: 'effra-reg';
+    font-size: 24px;
+    max-width: 250px;
+    line-height: 32px;
+    margin: auto auto;
+    margin-bottom: 45px;
+    padding: 0px 30px;
+    color: white;
+    letter-spacing: 0.1rem;
+  }
+
+  .get-secret {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    margin: auto auto;
+    font-family: 'effra-med';
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+
+  .download-link {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .download-buttons {
+    display: block;
+    margin: auto auto;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .download-buttons li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .download-ios {
+    width: 160px;
+    height: 65px;
+    background: url('../images/new-images/download-button-ios-669dea8be5.png') no-repeat;
+    background-size: 160px 65px !important;
+  }
+
+  .download-android {
+    width: 160px;
+    height: 65px;
+    background: url('../images/new-images/download-button-android-7b08f0a6ef.png') no-repeat;
+    background-size: 160px 65px !important;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  @media screen and (max-width:480px) {
+    .secret-text {
+      font-size: 39px;
+    }
+    .secret-subtext {
+      font-size: 18px;
+      line-height: 1.5em;
+    }
+    .download-buttons li {
+      margin-right: 0px;
+    }
+    .links {
+      position: relative;
+      display: block;
+      line-height: 16px;
+      margin-top: 60px;
+    }
+    .links li {
+      display: block;
+      text-align: center;
+      margin: 0px;
+      margin-bottom: 35px;
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
+    .download-ios {
+      background: url('../images/new-images/download-button-ios@2x-e024366ac8.png') no-repeat;
+    }
+
+    .download-android {
+      background: url('../images/new-images/download-button-android@2x-f854e36913.png') no-repeat;
+    }
+  }

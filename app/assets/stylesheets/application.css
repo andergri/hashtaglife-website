@@ -335,14 +335,14 @@ body {
   .download-ios {
     width: 160px;
     height: 65px;
-    background: url('../images/new-images/download-button-ios-669dea8be5.png') no-repeat;
+    background-image: <%= image-url("apple.png") %>;
     background-size: 160px 65px !important;
   }
 
   .download-android {
     width: 160px;
     height: 65px;
-    background: url('../images/new-images/download-button-android-7b08f0a6ef.png') no-repeat;
+    background-image: <%= image-url("google.png") %>;
     background-size: 160px 65px !important;
   }
 
@@ -378,10 +378,10 @@ body {
 
   @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
     .download-ios {
-      background: url('../images/new-images/download-button-ios@2x-e024366ac8.png') no-repeat;
+      background-image: <%= image-url("apple.png") %>;
     }
 
     .download-android {
-      background: url('../images/new-images/download-button-android@2x-f854e36913.png') no-repeat;
+      background-image: <%= image-url("google.png") %>;
     }
   }

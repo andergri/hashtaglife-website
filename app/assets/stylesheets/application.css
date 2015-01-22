@@ -238,7 +238,7 @@
       }
 
 body {
-    background-color: #f34846;
+    background-color: #446CB3;
   }
 
   .container {
@@ -260,7 +260,7 @@ body {
     height: 210px;
     margin: auto auto;
     position: relative;
-    background-size: 210px 174px;
+    background-size: 210px 210px;
     top: 210px;
   }
 

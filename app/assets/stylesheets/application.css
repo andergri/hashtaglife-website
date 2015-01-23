@@ -335,14 +335,14 @@ body {
   .download-ios {
     width: 160px;
     height: 65px;
-    background-image: "<%= image-url('apple.png') %>}";
+    background-image: "https://peaceful-hamlet-2107.herokuapp.com/assets/apple-f641be88459e1f20a88ef5b338c47988.png";
     background-size: 160px 65px !important;
   }
 
   .download-android {
     width: 160px;
     height: 65px;
-    background-image: "<%= image-url('google.png') %>";
+    background-image: "https://peaceful-hamlet-2107.herokuapp.com/assets/google-f9672e46a7b797b48aaa99393259165c.png";
     background-size: 160px 65px !important;
   }
 
@@ -378,10 +378,10 @@ body {
 
   @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
     .download-ios {
-      background-image: "<%= image-url('apple.png') %>";
+      background-image: "https://peaceful-hamlet-2107.herokuapp.com/assets/apple-f641be88459e1f20a88ef5b338c47988.png";
     }
 
     .download-android {
-      background-image: "<%= image-url('google.png') %>";
+      background-image: "https://peaceful-hamlet-2107.herokuapp.com/assets/google-f9672e46a7b797b48aaa99393259165c.png";
     }
   }

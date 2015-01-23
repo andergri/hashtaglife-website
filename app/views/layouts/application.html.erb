@@ -21,7 +21,11 @@
 
 <%= yield %>
 
-    <div class="footer-nav links-mobile">
+    <% if current_page?(root_path) %>
+        <div class="footer-nav links-mobile">
+ 	<% else %>
+ 	  <div class="footer-nav">
+	<% end %>
       <ul class="links">
         <li><a href="/">Home</a></li>
         <li><a href="/community">Community</a></li>

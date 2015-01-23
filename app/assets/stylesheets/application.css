@@ -14,32 +14,20 @@
  *= require_self
  */
       @font-face {
-        font-family: 'effra-med';
-        src: url('../images/effra-med-webfont-13afb206b3.eot');
-        src: url('../images/effra-med-webfont-13afb206b3.eot?#iefix') format('embedded-opentype'),
-          url('../images/effra-med-webfont-e4a6ef6fe3.woff2') format('woff2'),
-          url('../images/effra-med-webfont-07b0421281.woff') format('woff'),
-          url('../images/effra-med-webfont-d449042eeb.ttf') format('truetype'),
-          url('../images/effra-med-webfont-5f1545d852.svg#effra_mediumregular') format('svg');
+        font-family: 'PT Sans', sans-serif;
         font-weight: normal;
         font-style: normal;
       }
 
       @font-face {
-        font-family: 'effra-reg';
-        src: url('../images/effra-reg-webfont-e31a6c704a.eot');
-        src: url('../images/effra-reg-webfont-e31a6c704a.eot?#iefix') format('embedded-opentype'),
-          url('../images/effra-reg-webfont-d09dd52c3d.woff2') format('woff2'),
-          url('../images/effra-reg-webfont-d1dca428b4.woff') format('woff'),
-          url('../images/effra-reg-webfont-862d7dc910.ttf') format('truetype'),
-          url('../images/effra-reg-webfont-adaf6df05d.svg#effraregular') format('svg');
+        font-family: 'PT Sans', sans-serif;
         font-weight: normal;
         font-style: normal;
       }
 
       * {
         -webkit-tap-highlight-color:transparent;
-        font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+        font-family: 'PT Sans', sans-serif;
         font-size: 16px;
         line-height: 24px;
       }
@@ -53,6 +41,8 @@
       a, a:link, a:visited, 
       a:hover, a:focus, a:active {
         text-decoration: none;
+        color: #FFF;
+        background:transparent;
       }
 
       .selected-link {

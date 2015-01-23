@@ -335,14 +335,14 @@ body {
   .download-ios {
     width: 160px;
     height: 65px;
-    background-image: <%= image-url("apple.png") %>;
+    background-image: "<%= image-url('apple.png') %>}";
     background-size: 160px 65px !important;
   }
 
   .download-android {
     width: 160px;
     height: 65px;
-    background-image: <%= image-url("google.png") %>;
+    background-image: "<%= image-url('google.png') %>";
     background-size: 160px 65px !important;
   }
 
@@ -378,10 +378,10 @@ body {
 
   @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
     .download-ios {
-      background-image: <%= image-url("apple.png") %>;
+      background-image: "<%= image-url('apple.png') %>";
     }
 
     .download-android {
-      background-image: <%= image-url("google.png") %>;
+      background-image: "<%= image-url('google.png') %>";
     }
   }

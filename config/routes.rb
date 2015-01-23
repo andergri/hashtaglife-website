@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get 'pages/community' => 'high_voltage/pages#show', id: 'community'
   get 'pages/privacy' => 'high_voltage/pages#show', id: 'privacy'
   get 'pages/terms' => 'high_voltage/pages#show', id: 'terms'
+  get 'pages/law' => 'high_voltage/pages#show', id: 'law'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

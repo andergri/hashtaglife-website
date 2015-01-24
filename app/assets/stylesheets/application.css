@@ -82,7 +82,7 @@
       }
 
       .page a{
-        color: #F7AF14;
+        color: #F7B526;
       }
       .img-link {
         width: 100%;
@@ -95,7 +95,7 @@
         bottom: 0px;
         margin-right: auto;
         margin-left: auto;
-        background-color: #F7AF14;
+        background-color: #F7B526;
         line-height: 60px;
         height: 60px;
         -webkit-transition: all 0.5s ease;
@@ -199,7 +199,7 @@
         }
 
         .social-links {
-          background-color: #F7AF14;
+          background-color: #F7B526;
           height: 50px;
           margin-top: 0px;
         }
@@ -228,7 +228,7 @@
       }
 
 body {
-    background-color: #F7AF14;
+    background-color: #F7B526;
   }
 
   .container {
